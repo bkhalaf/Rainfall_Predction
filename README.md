@@ -7,5 +7,19 @@ Rainfall prediction is one of the challenging and uncertain tasks which has a si
 # Case Study
 In this paper, the data set under consideration contains daily weather observations from numerous Palestinian weather stations. The target variable is RainTomorrow which means: Did it rain the next day? Yes or No. The data set consists of 12 features and 12.987 k instances. 
 
-Below are the features.![image](https://user-images.githubusercontent.com/18074632/146637680-db7ed990-ae60-4470-b700-2da30d7ff0f7.png)
+Feature	Description
+Date	The date of observation
+Longitude	The coordinates of the location of the weather station
+Latitude 	The coordinates of the location of the weather station
+Elevation	The elevation of the location of the weather station
+Max temperature 	The maximum temperature in degrees Celsius
+Min temperature 	The minimum temperature in degrees Celsius
+Precipitation 	The amount of rainfall recorded for the day in mm
+Wind	The speed (km/h) of the strongest wind gust in the 24 hours to midnight
+Relative humidity 	Humidity (percent) at 9am
+Solar	The number of hours of bright sunshine in the day
+Rain Today	1 if precipitation exceeds 1mm, otherwise 0
+Rain Tomorrow 	The target variable. Did it rain tomorrow?
+![image](https://user-images.githubusercontent.com/18074632/146637751-4bc2cdcf-e34e-4962-a30a-d06dc72dbd54.png)
+
 
